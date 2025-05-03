@@ -10,7 +10,7 @@ body {
 }
 .h,
 .f {
-  height: 135px;
+  height: 99px;
   background-color: rgba(40, 153, 133, 255);
   border-radius: 15px;
   display: flex;
@@ -81,6 +81,14 @@ body {
   align-items: center;
   color: #6a97a3;
   letter-spacing: 1.5px;
+}
+.as h4:hover {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.3s ease;
+}
+.ho:hover {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.3s ease;
 }
 .l {
   display: flex;
